@@ -20,7 +20,7 @@ a {
   margin: auto;
 }
 
-.main-display {
+.main {
   width: 35%;
   height: 70vh;
   margin: auto;
@@ -35,10 +35,10 @@ a {
   background-color: #000;
 }
 
-.buttons {
+.grid {
   width: 90%;
-  height: 50%;
-  padding-top: 6%;
+  height: 60%;
+  padding-top: 4%;
   margin: auto;
   display: grid;
   gap: 8px;
@@ -47,8 +47,17 @@ a {
   align-items: center;
 }
 
-.buttons a {
+.grid > button {
   padding: 15px 15px;
+  font-size: 1rem;
   background-color: aliceblue;
   text-align: center;
+}
+
+.grid button:first-child {
+  background-color: rgb(233, 144, 144);
+}
+
+.grid button:nth-child(19) {
+  background-color: lightsalmon;
 }
